@@ -23,7 +23,7 @@ public class Customer1 {
 	@JmsListener(destination="demo.queue")
 	public void receiveQueue(String text){
 		
-		System.out.println("customer11111111从队列中得到的对象的内容是"+text);
+		System.out.println("cu stomer11111111从队列中得到的对象的内容是"+text);
 		
 	}
 }
