@@ -12,7 +12,7 @@ public class neuexamApplication {
 
 	@Bean
 	public Queue queue1(){
-		//定义一个点对点队列  ,名称为demo.queue
+		  //定义一个点对点队列  ,名称为demo.queue
 		return new ActiveMQQueue("demo.queue");
 	}
 	
